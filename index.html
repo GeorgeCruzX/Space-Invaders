@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Space Invaders</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="gameArea">
+
+    <!-- HUD -->
+    <div id="hud">
+        <div class="linha">
+            <img src="clock.png" class="icon">
+            <span id="tempo">00:00:00</span>
+        </div>
+
+        <div class="linha">
+            <img src="nave.png" class="icon">
+            LIFE: <span id="vidas">3</span>
+        </div>
+
+        <div class="linha">
+            <img src="alien.png" class="icon">
+            ALIEN: <span id="aliensMortos">0</span>
+        </div>
+    </div>
+
+    <!-- Nave -->
+    <img id="nave" src="nave.png">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
